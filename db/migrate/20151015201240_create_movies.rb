@@ -1,10 +1,4 @@
 class CreateMovies < ActiveRecord::Migration
-  def change
-    create_table :movies do |t|
-    end
-  end
-end
-class CreateMovies < ActiveRecord::Migration
   def up
     create_table 'movies' do |t|
       t.string 'title'
